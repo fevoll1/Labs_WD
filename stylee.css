@@ -1,0 +1,114 @@
+
+body {
+    font-family: Georgia, sans-serif; /* установили шрифт*/
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+    background-color:#d89f9f;
+}
+nav {
+    background-color: #d89f9f; /*задали цвет нав панели*/
+    padding: 10px;/* внутр отступы*/
+}
+nav ul {
+    list-style-type: none; /*убрали маркеры списка*/
+    margin: 0; /*нет внешн отступы*/
+    padding: 0;/*нет внутр отст*/
+    display: flex; /*вкл флексбокс*/
+    justify-content: center; /*элем списка горизонтально*/
+}
+nav ul li {
+    margin: 0 15px; /*добав внешн отступы слева и справа */
+}
+nav ul li a {
+    color: white; /*белый текст*/
+    text-decoration: none; /* нет подчеркивания у ссылок*/
+    padding: 10; /* + внутр отступы*/
+    font-size: 20px;
+}
+.container {
+    max-width: 1000px;/* макс шир конт */
+    margin: 50px auto; /*центрируем его на странице*/
+    padding: 20px;/*внутр отступы*/
+    background-color: #fff; /*белый фон*/
+    border-radius: 10px; /*закругляет углы*/
+}
+.profile-photo {
+    display: block; /*сделали блочным элементом*/
+    margin: 0 auto;/* центрируем горизонтальо*/
+    width: 250px; /*ширна*/
+    height: 250px; /*высота*/
+    border-radius: 50%; /*закругляем*/
+    object-fit: cover;/*фит под контейнер*/
+   float: right;/*справа*/
+   margin-top: -70px;
+}
+blockquote {
+    font-style: italic; /*текст курсив*/
+    color: #3a3a3a;/*цвет текста*/
+    margin: 0;/* нет внешн отступы*/
+    font-size: 22px ;
+}
+p{
+    color: #3a3a3a;/*цвет текста*/
+    margin: 0;/* нет внешн отступы*/
+    font-size: 22px ;
+    font-family: Georgia, sans-serif;
+}
+.photo_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+}
+.photo_container img {
+    max-width: 22%;
+    height: auto;
+
+}
+.photo_container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#fff;
+    padding: 15px;
+}
+.photo_container2 img {
+    max-width: 22%;
+    height: auto;
+}
+.photo_container3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#fff;
+    padding: 13px;
+}
+.photo_container3 img {
+    max-width: 18%;
+    height: auto;
+}
+.social-links{
+    background-color: #d89f9f; /*задали цвет нав панели*/
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    font-size: 25px; 
+    justify-content: center; 
+    gap: 100px; 
+
+}
+.social-links a { 
+    text-decoration: none; 
+    color: rgb(72, 59, 59); 
+    padding: 15px 25px; 
+    border-radius: 5px; 
+ }
+p::first-letter{
+    color: red; 
+    font-size: 1.5em; 
+    font-weight: bold;
+}
